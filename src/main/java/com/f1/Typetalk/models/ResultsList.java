@@ -1,8 +1,11 @@
 package com.f1.Typetalk.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.List;
 import java.util.Objects;
 
+@JsonIgnoreProperties
 public class ResultsList {
     public List<Results> Result;
 
