@@ -11,5 +11,6 @@ public class Ergast {
     {
         ErgastAPI api = new ErgastAPI();
         return api.findYearResults(year);
+
     }
 }
